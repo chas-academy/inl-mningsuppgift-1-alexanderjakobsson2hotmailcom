@@ -12,7 +12,6 @@ int main()
     int sum = 0;
     for(int i = 0; i < 100; i++){
         dice_throws[i] = (rand() %6) + 1;
-        printf("roll %d\n", dice_throws[i]);
         sum += dice_throws[i];
     }
 
